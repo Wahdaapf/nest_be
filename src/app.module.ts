@@ -12,7 +12,7 @@ import { join } from 'path';
     UsersModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'images'),
-      serveRoot: '/images', 
+      serveRoot: '/images',
     }),
   ],
 })
